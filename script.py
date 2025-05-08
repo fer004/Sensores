@@ -6,7 +6,7 @@ from datetime import datetime
 
 API_KEY = os.getenv("API_KEY_PURPLEAIR") 
 CSV_FILE = 'sensores_detectados.csv'
-OUTPUT_FILE = 'sensores.json'
+OUTPUT_FILE = 'sensores.geojson'
 
 def leer_csv(ruta):
     df = pd.read_csv(ruta)
