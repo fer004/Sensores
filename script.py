@@ -1,9 +1,10 @@
 import pandas as pd
 import requests
 import geojson
+import os
 from datetime import datetime
 
-API_KEY = '4DAC6BF4-2B64-11F0-81BE-42010A80001F'
+API_KEY = os.getenv("API_KEY_PURPLEAIR") 
 CSV_FILE = 'sensores_detectados.csv'
 SALIDA_GEOJSON = 'sensores.geojson'
 CAMPOS = 'pm1.0,pm2.5'
