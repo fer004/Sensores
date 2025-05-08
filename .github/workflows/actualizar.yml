@@ -29,3 +29,5 @@ jobs:
           git add sensores.geojson
           git commit -m "Auto: actualización de sensores.geojson" || echo "Sin cambios"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
