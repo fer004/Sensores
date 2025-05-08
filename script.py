@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 import requests
-import json
+import geojson
 from datetime import datetime
 
 API_KEY = os.getenv("API_KEY_PURPLEAIR") 
