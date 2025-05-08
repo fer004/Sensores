@@ -8,7 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+      API_KEY_PURPLEAIR: ${{ secrets.API_KEY_PURPLEAIR }}
     steps:
       - name: Clonar repositorio
         uses: actions/checkout@v3
