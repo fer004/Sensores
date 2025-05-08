@@ -1,0 +1,204 @@
+{
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 4326
+  },
+  "fields": [
+    {
+      "name": "sensor_index",
+      "type": "esriFieldTypeInteger",
+      "alias": "Sensor ID"
+    },
+    {
+      "name": "name",
+      "type": "esriFieldTypeString",
+      "alias": "Nombre"
+    },
+    {
+      "name": "pm1_0",
+      "type": "esriFieldTypeDouble",
+      "alias": "PM1.0"
+    },
+    {
+      "name": "pm2_5",
+      "type": "esriFieldTypeDouble",
+      "alias": "PM2.5"
+    },
+    {
+      "name": "timestamp",
+      "type": "esriFieldTypeString",
+      "alias": "Fecha"
+    }
+  ],
+  "features": [
+    {
+      "geometry": {
+        "x": -100.27293,
+        "y": 25.61827
+      },
+      "attributes": {
+        "sensor_index": 50871,
+        "name": "TEC Garza Laguera",
+        "pm1_0": 36.2,
+        "pm2_5": 43.0,
+        "timestamp": "2025-05-08T23:20:28.674832Z"
+      }
+    },
+    {
+      "geometry": {
+        "x": -100.33364,
+        "y": 25.64684
+      },
+      "attributes": {
+        "sensor_index": 189469,
+        "name": "Hospital Zambran Hellion TecSalud",
+        "pm1_0": 18.1,
+        "pm2_5": 29.3,
+        "timestamp": "2025-05-08T23:20:28.674832Z"
+      }
+    },
+    {
+      "geometry": {
+        "x": -100.291214,
+        "y": 25.651268
+      },
+      "attributes": {
+        "sensor_index": 227879,
+        "name": "Rectoria",
+        "pm1_0": 20.1,
+        "pm2_5": 28.1,
+        "timestamp": "2025-05-08T23:20:28.674832Z"
+      }
+    },
+    {
+      "geometry": {
+        "x": -100.28734,
+        "y": 25.65214
+      },
+      "attributes": {
+        "sensor_index": 227889,
+        "name": "Parque Central",
+        "pm1_0": 21.8,
+        "pm2_5": 29.6,
+        "timestamp": "2025-05-08T23:20:28.674832Z"
+      }
+    },
+    {
+      "geometry": {
+        "x": -100.29026,
+        "y": 25.648985
+      },
+      "attributes": {
+        "sensor_index": 227913,
+        "name": "Centro de Congresos",
+        "pm1_0": 19.9,
+        "pm2_5": 27.3,
+        "timestamp": "2025-05-08T23:20:28.674832Z"
+      }
+    },
+    {
+      "geometry": {
+        "x": -100.28892,
+        "y": 25.650778
+      },
+      "attributes": {
+        "sensor_index": 227925,
+        "name": "Jardín de las carreras",
+        "pm1_0": 19.6,
+        "pm2_5": 27.8,
+        "timestamp": "2025-05-08T23:20:28.674832Z"
+      }
+    },
+    {
+      "geometry": {
+        "x": -100.357025,
+        "y": 25.669565
+      },
+      "attributes": {
+        "sensor_index": 227965,
+        "name": "PrepaTec EGS Aulas 2",
+        "pm1_0": 20.3,
+        "pm2_5": 28.5,
+        "timestamp": "2025-05-08T23:20:28.674832Z"
+      }
+    },
+    {
+      "geometry": {
+        "x": -100.27554,
+        "y": 25.61803
+      },
+      "attributes": {
+        "sensor_index": 228003,
+        "name": "EGL-Jardín Robótica",
+        "pm1_0": 20.2,
+        "pm2_5": 29.3,
+        "timestamp": "2025-05-08T23:20:28.674832Z"
+      }
+    },
+    {
+      "geometry": {
+        "x": -100.28651,
+        "y": 25.654228
+      },
+      "attributes": {
+        "sensor_index": 228383,
+        "name": "Estadio Banorte",
+        "pm1_0": 20.6,
+        "pm2_5": 27.3,
+        "timestamp": "2025-05-08T23:20:28.674832Z"
+      }
+    },
+    {
+      "geometry": {
+        "x": -100.35683,
+        "y": 25.670425
+      },
+      "attributes": {
+        "sensor_index": 228389,
+        "name": "PEGS-Sensor-Canchas",
+        "pm1_0": 20.8,
+        "pm2_5": 28.3,
+        "timestamp": "2025-05-08T23:20:28.674832Z"
+      }
+    },
+    {
+      "geometry": {
+        "x": -100.29242,
+        "y": 25.653677
+      },
+      "attributes": {
+        "sensor_index": 228407,
+        "name": "CEDES",
+        "pm1_0": 20.0,
+        "pm2_5": 28.7,
+        "timestamp": "2025-05-08T23:20:28.674832Z"
+      }
+    },
+    {
+      "geometry": {
+        "x": -100.29115,
+        "y": 25.651243
+      },
+      "attributes": {
+        "sensor_index": 228549,
+        "name": "Rectoria",
+        "pm1_0": 0.0,
+        "pm2_5": 0.0,
+        "timestamp": "2025-05-08T23:20:28.674832Z"
+      }
+    },
+    {
+      "geometry": {
+        "x": -100.27457,
+        "y": 25.61808
+      },
+      "attributes": {
+        "sensor_index": 228555,
+        "name": "EGL-JARDÍN ROB",
+        "pm1_0": 20.9,
+        "pm2_5": 30.0,
+        "timestamp": "2025-05-08T23:20:28.674832Z"
+      }
+    }
+  ]
+}
