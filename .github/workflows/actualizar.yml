@@ -26,8 +26,8 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add sensores_arcgis.json
-          git commit -m "Auto: actualización de sensores_arcgis.json" || echo "Sin cambios"
+          git add sensores.geojson
+          git commit -m "Auto: actualización de sensores.geojson" || echo "Sin cambios"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
