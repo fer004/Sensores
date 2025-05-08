@@ -6,7 +6,7 @@ from datetime import datetime
 
 API_KEY = os.getenv("API_KEY_PURPLEAIR") 
 CSV_FILE = 'sensores_detectados.csv'
-OUTPUT_FILE = 'sensores.geojson'
+OUTPUT_FILE = 'sensores_arcgis.json'
 
 def leer_csv(ruta):
     df = pd.read_csv(ruta)
@@ -23,9 +23,9 @@ def consultar_pm(sensor_id):
         return data.get('pm1.0'), data.get('pm2.5')
     return None, None
 
-def crear_geojson(df):
-    features = []
+def generar_arcgis_json(df):
     timestamp = datetime.utcnow().isoformat() + 'Z'
+    features = []
 
     for _, row in df.iterrows():
         pm1, pm25 = consultar_pm(row['sensor_index'])
@@ -33,12 +33,11 @@ def crear_geojson(df):
             continue
 
         feature = {
-            "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [row['longitude'], row['latitude']]
+                "x": row['longitude'],
+                "y": row['latitude']
             },
-            "properties": {
+            "attributes": {
                 "sensor_index": int(row['sensor_index']),
                 "name": row.get('name', ''),
                 "pm1_0": round(pm1, 2),
@@ -48,16 +47,24 @@ def crear_geojson(df):
         }
         features.append(feature)
 
-    geojson_data = {
-        "type": "FeatureCollection",
+    arcgis_json = {
+        "geometryType": "esriGeometryPoint",
+        "spatialReference": { "wkid": 4326 },
+        "fields": [
+            {"name": "sensor_index", "type": "esriFieldTypeInteger", "alias": "Sensor ID"},
+            {"name": "name", "type": "esriFieldTypeString", "alias": "Nombre"},
+            {"name": "pm1_0", "type": "esriFieldTypeDouble", "alias": "PM1.0"},
+            {"name": "pm2_5", "type": "esriFieldTypeDouble", "alias": "PM2.5"},
+            {"name": "timestamp", "type": "esriFieldTypeString", "alias": "Fecha"}
+        ],
         "features": features
     }
 
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(geojson_data, f, ensure_ascii=False, indent=2)
+        json.dump(arcgis_json, f, ensure_ascii=False, indent=2)
 
-    print(f"Archivo GeoJSON guardado: {OUTPUT_FILE}")
+    print(f"Archivo ArcGIS JSON guardado: {OUTPUT_FILE}")
 
 if __name__ == '__main__':
     df = leer_csv(CSV_FILE)
-    crear_geojson(df)
+    generar_arcgis_json(df)
