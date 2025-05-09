@@ -13,9 +13,9 @@
       "properties": {
         "sensor_index": 50871,
         "name": "TEC Garza Laguera",
-        "pm1_0": 24.9,
-        "pm2_5": 30.6,
-        "timestamp": "2025-05-09T15:47:28.203979Z"
+        "pm1_0": 21.8,
+        "pm2_5": 27.8,
+        "timestamp": "2025-05-09T15:53:20.994662Z"
       }
     },
     {
@@ -30,9 +30,9 @@
       "properties": {
         "sensor_index": 189469,
         "name": "Hospital Zambran Hellion TecSalud",
-        "pm1_0": 15.8,
-        "pm2_5": 24.5,
-        "timestamp": "2025-05-09T15:47:28.203979Z"
+        "pm1_0": 16.9,
+        "pm2_5": 25.3,
+        "timestamp": "2025-05-09T15:53:20.994662Z"
       }
     },
     {
@@ -47,9 +47,9 @@
       "properties": {
         "sensor_index": 227879,
         "name": "Rectoria",
-        "pm1_0": 11.5,
-        "pm2_5": 15.4,
-        "timestamp": "2025-05-09T15:47:28.203979Z"
+        "pm1_0": 13.6,
+        "pm2_5": 17.8,
+        "timestamp": "2025-05-09T15:53:20.994662Z"
       }
     },
     {
@@ -64,9 +64,9 @@
       "properties": {
         "sensor_index": 227889,
         "name": "Parque Central",
-        "pm1_0": 11.5,
-        "pm2_5": 14.7,
-        "timestamp": "2025-05-09T15:47:28.203979Z"
+        "pm1_0": 12.6,
+        "pm2_5": 16.2,
+        "timestamp": "2025-05-09T15:53:20.994662Z"
       }
     },
     {
@@ -81,9 +81,9 @@
       "properties": {
         "sensor_index": 227913,
         "name": "Centro de Congresos",
-        "pm1_0": 11.2,
-        "pm2_5": 14.3,
-        "timestamp": "2025-05-09T15:47:28.203979Z"
+        "pm1_0": 13.0,
+        "pm2_5": 17.0,
+        "timestamp": "2025-05-09T15:53:20.994662Z"
       }
     },
     {
@@ -98,9 +98,9 @@
       "properties": {
         "sensor_index": 227925,
         "name": "Jard\u00edn de las carreras",
-        "pm1_0": 11.3,
-        "pm2_5": 14.8,
-        "timestamp": "2025-05-09T15:47:28.203979Z"
+        "pm1_0": 11.5,
+        "pm2_5": 15.2,
+        "timestamp": "2025-05-09T15:53:20.994662Z"
       }
     },
     {
@@ -115,9 +115,9 @@
       "properties": {
         "sensor_index": 227965,
         "name": "PrepaTec EGS Aulas 2",
-        "pm1_0": 19.0,
-        "pm2_5": 25.5,
-        "timestamp": "2025-05-09T15:47:28.203979Z"
+        "pm1_0": 17.1,
+        "pm2_5": 22.3,
+        "timestamp": "2025-05-09T15:53:20.994662Z"
       }
     },
     {
@@ -133,8 +133,8 @@
         "sensor_index": 228003,
         "name": "EGL-Jard\u00edn Rob\u00f3tica",
         "pm1_0": 9.6,
-        "pm2_5": 13.5,
-        "timestamp": "2025-05-09T15:47:28.203979Z"
+        "pm2_5": 13.6,
+        "timestamp": "2025-05-09T15:53:20.994662Z"
       }
     },
     {
@@ -149,9 +149,9 @@
       "properties": {
         "sensor_index": 228383,
         "name": "Estadio Banorte",
-        "pm1_0": 12.6,
-        "pm2_5": 16.1,
-        "timestamp": "2025-05-09T15:47:28.203979Z"
+        "pm1_0": 12.5,
+        "pm2_5": 16.2,
+        "timestamp": "2025-05-09T15:53:20.994662Z"
       }
     },
     {
@@ -166,9 +166,9 @@
       "properties": {
         "sensor_index": 228389,
         "name": "PEGS-Sensor-Canchas",
-        "pm1_0": 18.7,
-        "pm2_5": 24.0,
-        "timestamp": "2025-05-09T15:47:28.203979Z"
+        "pm1_0": 19.3,
+        "pm2_5": 24.2,
+        "timestamp": "2025-05-09T15:53:20.994662Z"
       }
     },
     {
@@ -183,9 +183,9 @@
       "properties": {
         "sensor_index": 228407,
         "name": "CEDES",
-        "pm1_0": 10.6,
-        "pm2_5": 14.2,
-        "timestamp": "2025-05-09T15:47:28.203979Z"
+        "pm1_0": 13.6,
+        "pm2_5": 18.4,
+        "timestamp": "2025-05-09T15:53:20.994662Z"
       }
     },
     {
@@ -200,9 +200,9 @@
       "properties": {
         "sensor_index": 228549,
         "name": "Rectoria",
-        "pm1_0": 0.0,
-        "pm2_5": 0.0,
-        "timestamp": "2025-05-09T15:47:28.203979Z"
+        "pm1_0": 0.5,
+        "pm2_5": 1.4,
+        "timestamp": "2025-05-09T15:53:20.994662Z"
       }
     },
     {
@@ -217,9 +217,9 @@
       "properties": {
         "sensor_index": 228555,
         "name": "EGL-JARD\u00cdN ROB",
-        "pm1_0": 9.6,
-        "pm2_5": 13.7,
-        "timestamp": "2025-05-09T15:47:28.203979Z"
+        "pm1_0": 10.5,
+        "pm2_5": 14.7,
+        "timestamp": "2025-05-09T15:53:20.994662Z"
       }
     }
   ]
