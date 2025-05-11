@@ -14,8 +14,8 @@
         "sensor_index": 33027,
         "name": "Lagos del Bosque",
         "pm1_0": 5.4,
-        "pm2_5": 7.2,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm2_5": 6.9,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -30,9 +30,9 @@
       "properties": {
         "sensor_index": 33117,
         "name": "Liceo de Monterrey",
-        "pm1_0": 9.3,
-        "pm2_5": 12.8,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 9.5,
+        "pm2_5": 12.4,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -47,9 +47,9 @@
       "properties": {
         "sensor_index": 34441,
         "name": "Callejon de los Ayala",
-        "pm1_0": 2.9,
-        "pm2_5": 4.8,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 3.2,
+        "pm2_5": 4.4,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -66,7 +66,7 @@
         "name": "San Patricio #106",
         "pm1_0": 0.0,
         "pm2_5": 0.0,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -81,9 +81,9 @@
       "properties": {
         "sensor_index": 34511,
         "name": "Rosario",
-        "pm1_0": 4.3,
-        "pm2_5": 5.6,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 4.4,
+        "pm2_5": 5.7,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -98,9 +98,9 @@
       "properties": {
         "sensor_index": 36709,
         "name": "San Roberto International School Campus San Agustin",
-        "pm1_0": 3.1,
-        "pm2_5": 3.7,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 2.7,
+        "pm2_5": 3.8,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -115,9 +115,9 @@
       "properties": {
         "sensor_index": 42211,
         "name": "RF",
-        "pm1_0": 2.4,
-        "pm2_5": 3.0,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 2.5,
+        "pm2_5": 3.4,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -132,9 +132,9 @@
       "properties": {
         "sensor_index": 43627,
         "name": "Liceo de Monterrey Rosemont",
-        "pm1_0": 18.9,
-        "pm2_5": 21.4,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 12.1,
+        "pm2_5": 13.9,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -149,9 +149,9 @@
       "properties": {
         "sensor_index": 45769,
         "name": "Huascaran",
-        "pm1_0": 4.0,
-        "pm2_5": 4.8,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 3.7,
+        "pm2_5": 4.6,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -167,8 +167,8 @@
         "sensor_index": 46599,
         "name": "Esponosa",
         "pm1_0": 4.6,
-        "pm2_5": 5.6,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm2_5": 6.1,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -183,9 +183,9 @@
       "properties": {
         "sensor_index": 47233,
         "name": "Colegio Israelita de Mty",
-        "pm1_0": 11.7,
-        "pm2_5": 14.7,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 11.1,
+        "pm2_5": 14.0,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -200,9 +200,9 @@
       "properties": {
         "sensor_index": 49949,
         "name": "El Horizonte",
-        "pm1_0": 11.2,
-        "pm2_5": 15.2,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 10.9,
+        "pm2_5": 14.3,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -217,9 +217,9 @@
       "properties": {
         "sensor_index": 50555,
         "name": "Trevi\u00f1o",
-        "pm1_0": 7.1,
-        "pm2_5": 8.4,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 6.6,
+        "pm2_5": 8.2,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -234,9 +234,9 @@
       "properties": {
         "sensor_index": 50871,
         "name": "TEC Garza Laguera",
-        "pm1_0": 29.7,
-        "pm2_5": 32.3,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 35.6,
+        "pm2_5": 36.9,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -251,9 +251,9 @@
       "properties": {
         "sensor_index": 60027,
         "name": "Torre Koi",
-        "pm1_0": 6.0,
+        "pm1_0": 5.8,
         "pm2_5": 7.2,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -268,9 +268,9 @@
       "properties": {
         "sensor_index": 62831,
         "name": "Koi IdeI",
-        "pm1_0": 2.0,
-        "pm2_5": 2.6,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 2.2,
+        "pm2_5": 3.2,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -285,9 +285,9 @@
       "properties": {
         "sensor_index": 71091,
         "name": "JNAirCare",
-        "pm1_0": 3.0,
-        "pm2_5": 4.7,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 3.7,
+        "pm2_5": 4.9,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -302,9 +302,9 @@
       "properties": {
         "sensor_index": 84411,
         "name": "Sima UANL",
-        "pm1_0": 4.9,
-        "pm2_5": 6.7,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 3.2,
+        "pm2_5": 4.4,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -321,7 +321,7 @@
         "name": "Sima Prepa Militarizada",
         "pm1_0": 21.6,
         "pm2_5": 28.5,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -336,9 +336,9 @@
       "properties": {
         "sensor_index": 118909,
         "name": "Colorines",
-        "pm1_0": 4989.9,
-        "pm2_5": 4989.9,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 4991.1,
+        "pm2_5": 4991.1,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -353,9 +353,9 @@
       "properties": {
         "sensor_index": 119965,
         "name": "Grupo Reforma El Norte",
-        "pm1_0": 5.4,
-        "pm2_5": 9.3,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 4.8,
+        "pm2_5": 7.8,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -372,7 +372,7 @@
         "name": "GrupoReforma La Silla",
         "pm1_0": 1.2,
         "pm2_5": 4.0,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -387,9 +387,9 @@
       "properties": {
         "sensor_index": 142670,
         "name": "Estaci\u00f3n de Monitoreo de Calidad del Aire Comit\u00e9 Estatal PAN",
-        "pm1_0": 12.7,
-        "pm2_5": 17.1,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 12.4,
+        "pm2_5": 16.1,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -404,9 +404,9 @@
       "properties": {
         "sensor_index": 147010,
         "name": "Santa Barbara",
-        "pm1_0": 7.6,
-        "pm2_5": 9.1,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 5.4,
+        "pm2_5": 7.0,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -421,9 +421,9 @@
       "properties": {
         "sensor_index": 169221,
         "name": "Imobilem Piso 5",
-        "pm1_0": 5.3,
-        "pm2_5": 6.9,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 5.4,
+        "pm2_5": 7.1,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -440,7 +440,7 @@
         "name": "Palo Blanco",
         "pm1_0": 0.0,
         "pm2_5": 0.0,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -455,9 +455,9 @@
       "properties": {
         "sensor_index": 174781,
         "name": "Colegio Cambridge de Monterrey Campus Mitras",
-        "pm1_0": 11.5,
-        "pm2_5": 13.4,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 11.6,
+        "pm2_5": 13.9,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -472,9 +472,9 @@
       "properties": {
         "sensor_index": 174787,
         "name": "Colegio Cambridge de Monterrey Campus Norte",
-        "pm1_0": 4.8,
-        "pm2_5": 5.5,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 3.8,
+        "pm2_5": 4.2,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -489,9 +489,9 @@
       "properties": {
         "sensor_index": 175081,
         "name": "Caba\u00f1a Chipinque",
-        "pm1_0": 3.9,
-        "pm2_5": 4.3,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 3.6,
+        "pm2_5": 4.1,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -506,9 +506,9 @@
       "properties": {
         "sensor_index": 189431,
         "name": "BEA",
-        "pm1_0": 6.9,
-        "pm2_5": 9.0,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 6.7,
+        "pm2_5": 9.2,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -523,9 +523,9 @@
       "properties": {
         "sensor_index": 189435,
         "name": "Olinal\u00e1",
-        "pm1_0": 4.7,
-        "pm2_5": 5.9,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 4.4,
+        "pm2_5": 5.3,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -542,7 +542,7 @@
         "name": "R\u00cdO AMAZONAS - CALZADA NORTE",
         "pm1_0": 0.0,
         "pm2_5": 0.0,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -557,9 +557,9 @@
       "properties": {
         "sensor_index": 189455,
         "name": "CHIPINQUE CAV",
-        "pm1_0": 4.8,
-        "pm2_5": 6.6,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 4.6,
+        "pm2_5": 6.2,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -574,9 +574,9 @@
       "properties": {
         "sensor_index": 189469,
         "name": "Hospital Zambran Hellion TecSalud",
-        "pm1_0": 6.0,
-        "pm2_5": 8.0,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 5.2,
+        "pm2_5": 6.9,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -593,7 +593,7 @@
         "name": "Miguel Alem\u00e1n",
         "pm1_0": 23.5,
         "pm2_5": 30.4,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -608,9 +608,9 @@
       "properties": {
         "sensor_index": 208785,
         "name": "Colegio Cambridge de Monterrey Campus An\u00e1huac",
-        "pm1_0": 7.8,
-        "pm2_5": 9.4,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 7.4,
+        "pm2_5": 8.5,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -625,9 +625,9 @@
       "properties": {
         "sensor_index": 209147,
         "name": "Rincon de San Jeronimo",
-        "pm1_0": 11.2,
-        "pm2_5": 15.3,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 11.4,
+        "pm2_5": 16.4,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -644,7 +644,7 @@
         "name": "Universidad y Sor Juana Ines de la Cruz",
         "pm1_0": 22.2,
         "pm2_5": 30.2,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -659,9 +659,9 @@
       "properties": {
         "sensor_index": 226615,
         "name": "Andalucia",
-        "pm1_0": 4.3,
-        "pm2_5": 5.8,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 4.0,
+        "pm2_5": 5.1,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -678,7 +678,7 @@
         "name": "Impladem",
         "pm1_0": 23.0,
         "pm2_5": 31.2,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -693,9 +693,9 @@
       "properties": {
         "sensor_index": 227879,
         "name": "Rectoria",
-        "pm1_0": 7.1,
+        "pm1_0": 6.6,
         "pm2_5": 8.4,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -710,9 +710,9 @@
       "properties": {
         "sensor_index": 227889,
         "name": "Parque Central",
-        "pm1_0": 5.1,
-        "pm2_5": 6.4,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 5.6,
+        "pm2_5": 6.6,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -727,9 +727,9 @@
       "properties": {
         "sensor_index": 227913,
         "name": "Centro de Congresos",
-        "pm1_0": 6.3,
-        "pm2_5": 7.7,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 6.8,
+        "pm2_5": 8.4,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -744,9 +744,9 @@
       "properties": {
         "sensor_index": 227925,
         "name": "Jard\u00edn de las carreras",
-        "pm1_0": 5.3,
-        "pm2_5": 6.6,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 5.6,
+        "pm2_5": 7.0,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -761,9 +761,9 @@
       "properties": {
         "sensor_index": 227965,
         "name": "PrepaTec EGS Aulas 2",
-        "pm1_0": 7.4,
-        "pm2_5": 9.1,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 6.2,
+        "pm2_5": 7.8,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -778,9 +778,9 @@
       "properties": {
         "sensor_index": 228003,
         "name": "EGL-Jard\u00edn Rob\u00f3tica",
-        "pm1_0": 5.2,
-        "pm2_5": 6.6,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 5.1,
+        "pm2_5": 6.5,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -795,9 +795,9 @@
       "properties": {
         "sensor_index": 228383,
         "name": "Estadio Banorte",
-        "pm1_0": 5.8,
-        "pm2_5": 7.1,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 6.5,
+        "pm2_5": 7.9,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -812,9 +812,9 @@
       "properties": {
         "sensor_index": 228389,
         "name": "PEGS-Sensor-Canchas",
-        "pm1_0": 7.4,
-        "pm2_5": 9.0,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 7.0,
+        "pm2_5": 8.8,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -829,9 +829,9 @@
       "properties": {
         "sensor_index": 228407,
         "name": "CEDES",
-        "pm1_0": 5.3,
-        "pm2_5": 6.5,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 5.5,
+        "pm2_5": 7.3,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -848,7 +848,7 @@
         "name": "Rectoria",
         "pm1_0": 0.0,
         "pm2_5": 0.0,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     },
     {
@@ -863,9 +863,9 @@
       "properties": {
         "sensor_index": 228555,
         "name": "EGL-JARD\u00cdN ROB",
-        "pm1_0": 5.6,
-        "pm2_5": 7.0,
-        "timestamp": "2025-05-11T14:50:10.732592Z"
+        "pm1_0": 5.3,
+        "pm2_5": 6.3,
+        "timestamp": "2025-05-11T14:55:28.348363Z"
       }
     }
   ]
