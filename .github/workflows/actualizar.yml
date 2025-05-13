@@ -26,19 +26,8 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-
-          # Guardar cambios no confirmados temporalmente
-          git stash
-
-          # Actualizar desde remoto con rebase
-          git pull --rebase origin main
-
-          # Recuperar los cambios
-          git stash pop
-
-          # Agregar y confirmar cambios
           git add sensores.geojson AQ_PM25.geojson
-          git commit -m "Auto: actualización de sensores.geojson" || echo "Sin cambios"
+          git commit -m "Auto: actualización de archivos GeoJson" || echo "Sin cambios"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
