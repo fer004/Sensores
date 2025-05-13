@@ -10,7 +10,7 @@ from scipy.spatial import Delaunay
 from datetime import datetime
 
 # Parámetros
-API_KEY = os.getenv("API_KEY_PURPLEAIR")
+API_KEY = '4DAC6BF4-2B64-11F0-81BE-42010A80001F'  # os.getenv("API_KEY_PURPLEAIR")
 CSV_FILE = 'sensores_detectados.csv'
 SALIDA_GEOJSON_SENSORES = 'sensores.geojson'
 SALIDA_GEOJSON_COLONIAS = 'AQ_PM25.geojson'
@@ -130,7 +130,7 @@ if __name__ == '__main__':
         else:
             colonia['valor_interpolado'] = np.nan
 
-    # Paso 4: Crear GeoJSON de salida
+    # Paso 4: Crear GeoJSON de salida con validación robusta
     geo_json_data = {
         "type": "FeatureCollection",
         "features": []
@@ -138,26 +138,49 @@ if __name__ == '__main__':
 
     for colonia in colonias_data:
         geom = colonia['geometry']
-        if geom.type == 'Polygon':
-            coordinates = [list(geom.exterior.coords)]
-        elif geom.type == 'MultiPolygon':
-            coordinates = [[list(p.exterior.coords)] for p in geom.geoms]
-        else:
-            print(f"Colonia omitida ({colonia['nombre']}) - tipo de geometría no soportado: {geom.type}")
+
+        if not geom.is_valid or geom.is_empty:
+            print(f"Colonia omitida ({colonia['nombre']}) - geometría no válida o vacía")
             continue
+
+        try:
+            if geom.geom_type == 'Polygon':
+                coordinates = [list(geom.exterior.coords)]
+                geometry = {
+                    "type": "Polygon",
+                    "coordinates": coordinates
+                }
+            elif geom.geom_type == 'MultiPolygon':
+                coordinates = []
+                for p in geom.geoms:
+                    coordinates.append([list(p.exterior.coords)])
+                geometry = {
+                    "type": "MultiPolygon",
+                    "coordinates": coordinates
+                }
+            else:
+                print(f"Colonia omitida ({colonia['nombre']}) - tipo de geometría no soportado: {geom.geom_type}")
+                continue
+        except Exception as e:
+            print(f"Error procesando geometría de {colonia['nombre']}: {e}")
+            continue
+
+        valor_interpolado = colonia.get('valor_interpolado')
+        if valor_interpolado is not None and not np.isnan(valor_interpolado):
+            valor_export = round(float(valor_interpolado), 2)
+        else:
+            valor_export = None
 
         feature = {
             "type": "Feature",
-            "geometry": {
-                "type": geom.type,
-                "coordinates": coordinates
-            },
+            "geometry": geometry,
             "properties": {
                 "nombre": colonia['nombre'],
-                "valor_interpolado": colonia['valor_interpolado'],
-                "AQ": clasificar_calidad_aire(colonia['valor_interpolado'])
+                "valor_interpolado": valor_export,
+                "AQ": clasificar_calidad_aire(valor_export)
             }
         }
+
         geo_json_data["features"].append(feature)
 
     with open(SALIDA_GEOJSON_COLONIAS, "w", encoding="utf-8") as f:
