@@ -5,16 +5,15 @@ import numpy as np
 import requests
 import geojson
 import shapefile
-import folium
 from shapely.geometry import shape, Point
 from scipy.spatial import Delaunay
 from datetime import datetime
 
 # Parámetros
-API_KEY =  os.getenv("API_KEY_PURPLEAIR")
+API_KEY = os.getenv("API_KEY_PURPLEAIR")
 CSV_FILE = 'sensores_detectados.csv'
 SALIDA_GEOJSON_SENSORES = 'sensores.geojson'
-SALIDA_GEOJSON_COLONIAS = 'AQ_PM25.geojson'
+SALIDA_GEOJSON_COLONIAS = 'AQ_2.geojson'
 ARCHIVO_SHP_COLONIAS = 'shp/2023_1_19_A.shp'
 CAMPOS = 'pm1.0,pm2.5'
 
@@ -37,6 +36,8 @@ def consultar_sensor(sensor_index):
 
 def crear_geojson(df):
     features = []
+    puntos = []
+    valores = []
     timestamp = datetime.utcnow().isoformat() + "Z"
     for _, fila in df.iterrows():
         pm1, pm25 = consultar_sensor(fila['sensor_index'])
@@ -48,13 +49,18 @@ def crear_geojson(df):
                 "pm2_5": pm25,
                 "timestamp": timestamp
             }
-            point = geojson.Point((fila['longitude'], fila['latitude']))
+            coords = (fila['longitude'], fila['latitude'])
+            point = geojson.Point(coords)
             features.append(geojson.Feature(geometry=point, properties=props))
+            puntos.append(coords)
+            valores.append(pm25)
 
     feature_collection = geojson.FeatureCollection(features)
     with open(SALIDA_GEOJSON_SENSORES, 'w', encoding='utf-8') as f:
         geojson.dump(feature_collection, f, indent=2)
+
     print(f"GeoJSON de sensores generado: {SALIDA_GEOJSON_SENSORES}")
+    return np.array(puntos), np.array(valores)
 
 def cargar_datos_colonias_shp(archivo_shp_colonias):
     sf = shapefile.Reader(archivo_shp_colonias, encoding='utf-8')
@@ -64,19 +70,6 @@ def cargar_datos_colonias_shp(archivo_shp_colonias):
         nombre_colonia = shape_record.record[0]
         colonias.append({'nombre': nombre_colonia, 'geometry': geometry})
     return colonias
-
-def cargar_datos_puntos_geojson(archivo_geojson_puntos):
-    with open(archivo_geojson_puntos, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    puntos = []
-    valores = []
-    for feature in data['features']:
-        coords = feature['geometry']['coordinates']
-        valor = feature['properties'].get('pm2_5')
-        if coords and valor is not None:
-            puntos.append(coords)
-            valores.append(valor)
-    return np.array(puntos), np.array(valores)
 
 def interpolar_lineal(punto, triangulo_indices, puntos, valores):
     v0, v1, v2 = puntos[triangulo_indices]
@@ -112,14 +105,14 @@ def clasificar_calidad_aire(pm25):
 # ------------------ Ejecución Principal ------------------ #
 
 if __name__ == '__main__':
-    # Paso 1: Crear GeoJSON de sensores
+    # Paso 1: Leer CSV y generar puntos
     df_sensores = leer_csv(CSV_FILE)
-    crear_geojson(df_sensores)
+    puntos_data, valores_puntos = crear_geojson(df_sensores)
 
-    # Paso 2: Interpolar valores en colonias
+    # Paso 2: Cargar colonias
     colonias_data = cargar_datos_colonias_shp(ARCHIVO_SHP_COLONIAS)
-    puntos_data, valores_puntos = cargar_datos_puntos_geojson(SALIDA_GEOJSON_SENSORES)
 
+    # Paso 3: Triangulación e interpolación
     try:
         tri = Delaunay(puntos_data)
     except ValueError as e:
@@ -137,7 +130,7 @@ if __name__ == '__main__':
         else:
             colonia['valor_interpolado'] = np.nan
 
-    # Crear GeoJSON final con interpolación
+    # Paso 4: Crear GeoJSON de salida
     geo_json_data = {
         "type": "FeatureCollection",
         "features": []
