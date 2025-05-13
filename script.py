@@ -13,7 +13,7 @@ from datetime import datetime
 API_KEY = os.getenv("API_KEY_PURPLEAIR")
 CSV_FILE = 'sensores_detectados.csv'
 SALIDA_GEOJSON_SENSORES = 'sensores.geojson'
-SALIDA_GEOJSON_COLONIAS = 'AQ.geojson'
+SALIDA_GEOJSON_COLONIAS = 'AQ_PM25.geojson'
 ARCHIVO_SHP_COLONIAS = 'shp/2023_1_19_A.shp'
 CAMPOS = 'pm1.0,pm2.5'
 
