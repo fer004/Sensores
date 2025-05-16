@@ -34,11 +34,31 @@ def consultar_sensor(sensor_index):
         return data.get("pm1.0"), data.get("pm2.5")
     return None, None
 
+def clasificar_calidad_aire(pm25):
+    if pm25 is None or np.isnan(pm25):
+        return "Sin datos"
+    elif pm25 <= 12.0:
+        return "Bueno"
+    elif pm25 <= 35.4:
+        return "Moderado"
+    elif pm25 <= 55.4:
+        return "No saludable para grupos sensibles"
+    elif pm25 <= 150.4:
+        return "No saludable"
+    elif pm25 <= 250.4:
+        return "Muy insalubre"
+    else:
+        return "Peligroso"
+
 def crear_geojson(df):
     features = []
     puntos = []
     valores = []
     timestamp = datetime.utcnow().isoformat() + "Z"
+
+    historico_path = "historico.csv"
+    datos_historicos = []
+
     for _, fila in df.iterrows():
         pm1, pm25 = consultar_sensor(fila['sensor_index'])
         if pm1 is not None and pm25 is not None:
@@ -47,6 +67,7 @@ def crear_geojson(df):
                 "name": fila.get('name', ''),
                 "pm1_0": pm1,
                 "pm2_5": pm25,
+                "AQ": clasificar_calidad_aire(pm25),
                 "timestamp": timestamp
             }
             coords = (fila['longitude'], fila['latitude'])
@@ -55,12 +76,37 @@ def crear_geojson(df):
             puntos.append(coords)
             valores.append(pm25)
 
+            # Añadir al historial
+            datos_historicos.append({
+                "sensor_index": fila['sensor_index'],
+                "name": fila.get('name', ''),
+                "timestamp": timestamp,
+                "pm1_0": pm1,
+                "pm2_5": pm25,
+                "AQ": clasificar_calidad_aire(pm25)
+            })
+
+    # Guardar GeoJSON de sensores
     feature_collection = geojson.FeatureCollection(features)
     with open(SALIDA_GEOJSON_SENSORES, 'w', encoding='utf-8') as f:
         geojson.dump(feature_collection, f, indent=2)
 
     print(f"GeoJSON de sensores generado: {SALIDA_GEOJSON_SENSORES}")
+
+    # Guardar o actualizar el histórico
+    df_historico_nuevo = pd.DataFrame(datos_historicos)
+
+    if os.path.exists(historico_path):
+        df_existente = pd.read_csv(historico_path)
+        df_total = pd.concat([df_existente, df_historico_nuevo], ignore_index=True)
+    else:
+        df_total = df_historico_nuevo
+
+    df_total.to_csv(historico_path, index=False, encoding='utf-8')
+    print(f"Histórico actualizado: {historico_path}")
+
     return np.array(puntos), np.array(valores)
+
 
 def cargar_datos_colonias_shp(archivo_shp_colonias):
     sf = shapefile.Reader(archivo_shp_colonias, encoding='utf-8')
@@ -86,21 +132,7 @@ def interpolar_lineal(punto, triangulo_indices, puntos, valores):
     except np.linalg.LinAlgError:
         return None
 
-def clasificar_calidad_aire(pm25):
-    if pm25 is None or np.isnan(pm25):
-        return "Sin datos"
-    elif pm25 <= 12.0:
-        return "Bueno"
-    elif pm25 <= 35.4:
-        return "Moderado"
-    elif pm25 <= 55.4:
-        return "No saludable para grupos sensibles"
-    elif pm25 <= 150.4:
-        return "No saludable"
-    elif pm25 <= 250.4:
-        return "Muy insalubre"
-    else:
-        return "Peligroso"
+
 
 # ------------------ Ejecución Principal ------------------ #
 
