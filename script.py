@@ -151,15 +151,31 @@ if __name__ == '__main__':
         exit()
 
     for colonia in colonias_data:
-        centroide = colonia['geometry'].centroid
-        punto_centroide = np.array([centroide.x, centroide.y])
-        simplex_index = tri.find_simplex(punto_centroide)
-        if simplex_index != -1:
-            triangulo_indices = tri.simplices[simplex_index]
-            valor_interpolado = interpolar_lineal(punto_centroide, triangulo_indices, puntos_data, valores_puntos)
-            colonia['valor_interpolado'] = valor_interpolado
+        geom = colonia['geometry']
+        puntos_en_colonia = []
+        valores_en_colonia = []
+
+        for i, (lon, lat) in enumerate(puntos_data):
+            punto = Point(lon, lat)
+            if geom.contains(punto):
+                puntos_en_colonia.append(punto)
+                valores_en_colonia.append(valores_puntos[i])
+
+        if valores_en_colonia:
+            # Si hay puntos dentro de la colonia, usar el promedio de sus valores
+            colonia['valor_interpolado'] = float(np.mean(valores_en_colonia))
         else:
-            colonia['valor_interpolado'] = np.nan
+            # Si no hay puntos, usar la interpolación con Delaunay
+            centroide = geom.centroid
+            punto_centroide = np.array([centroide.x, centroide.y])
+            simplex_index = tri.find_simplex(punto_centroide)
+
+            if simplex_index != -1:
+                triangulo_indices = tri.simplices[simplex_index]
+                valor_interpolado = interpolar_lineal(punto_centroide, triangulo_indices, puntos_data, valores_puntos)
+                colonia['valor_interpolado'] = valor_interpolado
+            else:
+                colonia['valor_interpolado'] = np.nan
 
     # Paso 4: Crear GeoJSON de salida con validación robusta
     geo_json_data = {
