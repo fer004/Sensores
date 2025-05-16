@@ -33,7 +33,7 @@
         "name": "Liceo de Monterrey",
         "pm1_0": 38.9,
         "pm2_5": 58.7,
-        "AQ": "No saludable",
+        "AQ": "Muy insalubre",
         "timestamp": "2025-05-16T16:42:57.033147Z"
       }
     },
@@ -51,7 +51,7 @@
         "name": "Callejon de los Ayala",
         "pm1_0": 20.2,
         "pm2_5": 32.6,
-        "AQ": "Moderado",
+        "AQ": "Peligroso",
         "timestamp": "2025-05-16T16:42:57.033147Z"
       }
     },
