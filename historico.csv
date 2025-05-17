@@ -3800,3 +3800,53 @@ sensor_index,name,timestamp,pm1_0,pm2_5,AQ
 228407,CEDES,2025-05-17T07:48:36.444169Z,28.0,39.3,No saludable para grupos sensibles
 228549,Rectoria,2025-05-17T07:48:36.444169Z,0.0,0.0,Bueno
 228555,EGL-JARDÍN ROB,2025-05-17T07:48:36.444169Z,36.6,50.4,No saludable para grupos sensibles
+33027,Lagos del Bosque,2025-05-17T07:53:56.602264Z,30.7,47.1,No saludable para grupos sensibles
+33117,Liceo de Monterrey,2025-05-17T07:53:56.602264Z,28.9,44.7,No saludable para grupos sensibles
+34441,Callejon de los Ayala,2025-05-17T07:53:56.602264Z,14.9,23.6,Moderado
+34499,San Patricio #106,2025-05-17T07:53:56.602264Z,0.0,0.0,Bueno
+34511,Rosario,2025-05-17T07:53:56.602264Z,28.9,46.1,No saludable para grupos sensibles
+36709,San Roberto International School Campus San Agustin,2025-05-17T07:53:56.602264Z,14.9,23.2,Moderado
+42211,RF,2025-05-17T07:53:56.602264Z,38.5,54.0,No saludable para grupos sensibles
+43627,Liceo de Monterrey Rosemont,2025-05-17T07:53:56.602264Z,23.9,34.7,Moderado
+45769,Huascaran,2025-05-17T07:53:56.602264Z,29.9,44.3,No saludable para grupos sensibles
+46599,Esponosa,2025-05-17T07:53:56.602264Z,23.6,32.7,Moderado
+47233,Colegio Israelita de Mty,2025-05-17T07:53:56.602264Z,15.3,19.2,Moderado
+49949,El Horizonte,2025-05-17T07:53:56.602264Z,23.5,35.7,No saludable para grupos sensibles
+50555,Treviño,2025-05-17T07:53:56.602264Z,29.0,43.8,No saludable para grupos sensibles
+50871,TEC Garza Laguera,2025-05-17T07:53:56.602264Z,57.4,70.8,No saludable
+60027,Torre Koi,2025-05-17T07:53:56.602264Z,24.5,36.2,No saludable para grupos sensibles
+62831,Koi IdeI,2025-05-17T07:53:56.602264Z,23.4,34.0,Moderado
+71091,JNAirCare,2025-05-17T07:53:56.602264Z,18.5,27.4,Moderado
+84411,Sima UANL,2025-05-17T07:53:56.602264Z,24.6,37.2,No saludable para grupos sensibles
+93711,Sima Prepa Militarizada,2025-05-17T07:53:56.602264Z,21.6,28.5,Moderado
+119965,Grupo Reforma El Norte,2025-05-17T07:53:56.602264Z,21.8,31.2,Moderado
+121719,GrupoReforma La Silla,2025-05-17T07:53:56.602264Z,1.2,4.0,Bueno
+142670,Estación de Monitoreo de Calidad del Aire Comité Estatal PAN,2025-05-17T07:53:56.602264Z,24.0,35.3,Moderado
+147010,Santa Barbara,2025-05-17T07:53:56.602264Z,28.2,40.4,No saludable para grupos sensibles
+169221,Imobilem Piso 5,2025-05-17T07:53:56.602264Z,37.9,58.3,No saludable
+173083,Palo Blanco,2025-05-17T07:53:56.602264Z,0.0,0.0,Bueno
+174781,Colegio Cambridge de Monterrey Campus Mitras,2025-05-17T07:53:56.602264Z,27.6,35.0,Moderado
+174787,Colegio Cambridge de Monterrey Campus Norte,2025-05-17T07:53:56.602264Z,22.5,27.4,Moderado
+175081,Cabaña Chipinque,2025-05-17T07:53:56.602264Z,4.4,5.4,Bueno
+189431,BEA,2025-05-17T07:53:56.602264Z,27.2,41.2,No saludable para grupos sensibles
+189435,Olinalá,2025-05-17T07:53:56.602264Z,32.2,49.9,No saludable para grupos sensibles
+189447,RÍO AMAZONAS - CALZADA NORTE,2025-05-17T07:53:56.602264Z,0.0,0.0,Bueno
+189455,CHIPINQUE CAV,2025-05-17T07:53:56.602264Z,29.9,46.3,No saludable para grupos sensibles
+189469,Hospital Zambran Hellion TecSalud,2025-05-17T07:53:56.602264Z,26.7,40.9,No saludable para grupos sensibles
+203705,Miguel Alemán,2025-05-17T07:53:56.602264Z,38.5,48.6,No saludable para grupos sensibles
+208785,Colegio Cambridge de Monterrey Campus Anáhuac,2025-05-17T07:53:56.602264Z,28.1,38.3,No saludable para grupos sensibles
+209147,Rincon de San Jeronimo,2025-05-17T07:53:56.602264Z,25.9,39.1,No saludable para grupos sensibles
+226601,Universidad y Sor Juana Ines de la Cruz,2025-05-17T07:53:56.602264Z,5.4,6.5,Bueno
+226615,Andalucia,2025-05-17T07:53:56.602264Z,19.3,28.0,Moderado
+227585,Impladem,2025-05-17T07:53:56.602264Z,27.1,36.5,No saludable para grupos sensibles
+227879,Rectoria,2025-05-17T07:53:56.602264Z,27.4,37.4,No saludable para grupos sensibles
+227889,Parque Central,2025-05-17T07:53:56.602264Z,26.4,35.7,No saludable para grupos sensibles
+227913,Centro de Congresos,2025-05-17T07:53:56.602264Z,27.4,37.9,No saludable para grupos sensibles
+227925,Jardín de las carreras,2025-05-17T07:53:56.602264Z,25.2,34.6,Moderado
+227965,PrepaTec EGS Aulas 2,2025-05-17T07:53:56.602264Z,28.0,39.9,No saludable para grupos sensibles
+228003,EGL-Jardín Robótica,2025-05-17T07:53:56.602264Z,30.6,43.3,No saludable para grupos sensibles
+228383,Estadio Banorte,2025-05-17T07:53:56.602264Z,27.2,36.4,No saludable para grupos sensibles
+228389,PEGS-Sensor-Canchas,2025-05-17T07:53:56.602264Z,28.2,37.8,No saludable para grupos sensibles
+228407,CEDES,2025-05-17T07:53:56.602264Z,27.5,38.0,No saludable para grupos sensibles
+228549,Rectoria,2025-05-17T07:53:56.602264Z,0.0,0.0,Bueno
+228555,EGL-JARDÍN ROB,2025-05-17T07:53:56.602264Z,35.6,49.6,No saludable para grupos sensibles
