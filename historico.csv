@@ -18600,3 +18600,53 @@ sensor_index,name,timestamp,pm1_0,pm2_5,AQ
 228407,CEDES,2025-05-19T20:44:45.904217Z,21.7,29.6,Moderado
 228549,Rectoria,2025-05-19T20:44:45.904217Z,0.0,0.0,Bueno
 228555,EGL-JARDÍN ROB,2025-05-19T20:44:45.904217Z,22.1,29.2,Moderado
+33027,Lagos del Bosque,2025-05-19T20:50:58.893594Z,22.1,33.1,Moderado
+33117,Liceo de Monterrey,2025-05-19T20:50:58.893594Z,25.6,38.2,No saludable para grupos sensibles
+34441,Callejon de los Ayala,2025-05-19T20:50:58.893594Z,14.2,22.2,Moderado
+34499,San Patricio #106,2025-05-19T20:50:58.893594Z,0.4,0.9,Bueno
+34511,Rosario,2025-05-19T20:50:58.893594Z,23.2,35.9,No saludable para grupos sensibles
+36709,San Roberto International School Campus San Agustin,2025-05-19T20:50:58.893594Z,16.7,23.7,Moderado
+42211,RF,2025-05-19T20:50:58.893594Z,20.9,28.2,Moderado
+43627,Liceo de Monterrey Rosemont,2025-05-19T20:50:58.893594Z,33.9,52.4,No saludable para grupos sensibles
+45769,Huascaran,2025-05-19T20:50:58.893594Z,22.9,32.8,Moderado
+46599,Esponosa,2025-05-19T20:50:58.893594Z,12.1,16.0,Moderado
+47233,Colegio Israelita de Mty,2025-05-19T20:50:58.893594Z,15.3,19.2,Moderado
+49949,El Horizonte,2025-05-19T20:50:58.893594Z,24.8,37.3,No saludable para grupos sensibles
+50555,Treviño,2025-05-19T20:50:58.893594Z,22.6,33.5,Moderado
+50871,TEC Garza Laguera,2025-05-19T20:50:58.893594Z,77.5,85.7,No saludable
+60027,Torre Koi,2025-05-19T20:50:58.893594Z,20.3,29.4,Moderado
+62831,Koi IdeI,2025-05-19T20:50:58.893594Z,21.2,29.8,Moderado
+71091,JNAirCare,2025-05-19T20:50:58.893594Z,17.6,29.1,Moderado
+84411,Sima UANL,2025-05-19T20:50:58.893594Z,22.3,33.0,Moderado
+93711,Sima Prepa Militarizada,2025-05-19T20:50:58.893594Z,21.6,28.5,Moderado
+119965,Grupo Reforma El Norte,2025-05-19T20:50:58.893594Z,22.7,32.7,Moderado
+121719,GrupoReforma La Silla,2025-05-19T20:50:58.893594Z,1.2,4.0,Bueno
+142670,Estación de Monitoreo de Calidad del Aire Comité Estatal PAN,2025-05-19T20:50:58.893594Z,23.0,33.6,Moderado
+147010,Santa Barbara,2025-05-19T20:50:58.893594Z,22.5,31.0,Moderado
+169221,Imobilem Piso 5,2025-05-19T20:50:58.893594Z,32.8,48.2,No saludable para grupos sensibles
+173083,Palo Blanco,2025-05-19T20:50:58.893594Z,0.0,0.0,Bueno
+174781,Colegio Cambridge de Monterrey Campus Mitras,2025-05-19T20:50:58.893594Z,26.1,33.6,Moderado
+174787,Colegio Cambridge de Monterrey Campus Norte,2025-05-19T20:50:58.893594Z,22.2,26.6,Moderado
+175081,Cabaña Chipinque,2025-05-19T20:50:58.893594Z,4.4,5.4,Bueno
+189431,BEA,2025-05-19T20:50:58.893594Z,22.4,32.3,Moderado
+189435,Olinalá,2025-05-19T20:50:58.893594Z,24.7,36.6,No saludable para grupos sensibles
+189447,RÍO AMAZONAS - CALZADA NORTE,2025-05-19T20:50:58.893594Z,0.0,0.0,Bueno
+189455,CHIPINQUE CAV,2025-05-19T20:50:58.893594Z,23.1,34.8,Moderado
+189469,Hospital Zambran Hellion TecSalud,2025-05-19T20:50:58.893594Z,21.5,32.4,Moderado
+203705,Miguel Alemán,2025-05-19T20:50:58.893594Z,38.5,48.6,No saludable para grupos sensibles
+208785,Colegio Cambridge de Monterrey Campus Anáhuac,2025-05-19T20:50:58.893594Z,24.0,30.4,Moderado
+209147,Rincon de San Jeronimo,2025-05-19T20:50:58.893594Z,26.2,38.4,No saludable para grupos sensibles
+226601,Universidad y Sor Juana Ines de la Cruz,2025-05-19T20:50:58.893594Z,33.8,44.6,No saludable para grupos sensibles
+226615,Andalucia,2025-05-19T20:50:58.893594Z,17.8,23.9,Moderado
+227585,Impladem,2025-05-19T20:50:58.893594Z,22.6,29.9,Moderado
+227879,Rectoria,2025-05-19T20:50:58.893594Z,24.4,32.3,Moderado
+227889,Parque Central,2025-05-19T20:50:58.893594Z,24.1,30.8,Moderado
+227913,Centro de Congresos,2025-05-19T20:50:58.893594Z,24.4,31.8,Moderado
+227925,Jardín de las carreras,2025-05-19T20:50:58.893594Z,21.8,28.1,Moderado
+227965,PrepaTec EGS Aulas 2,2025-05-19T20:50:58.893594Z,23.5,30.8,Moderado
+228003,EGL-Jardín Robótica,2025-05-19T20:50:58.893594Z,24.5,33.9,Moderado
+228383,Estadio Banorte,2025-05-19T20:50:58.893594Z,23.2,29.7,Moderado
+228389,PEGS-Sensor-Canchas,2025-05-19T20:50:58.893594Z,26.0,33.9,Moderado
+228407,CEDES,2025-05-19T20:50:58.893594Z,26.2,35.1,Moderado
+228549,Rectoria,2025-05-19T20:50:58.893594Z,0.0,0.0,Bueno
+228555,EGL-JARDÍN ROB,2025-05-19T20:50:58.893594Z,23.3,31.1,Moderado
