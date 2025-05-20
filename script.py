@@ -80,7 +80,8 @@ def crear_geojson(df):
                 "name": fila.get('name', ''),
                 "pm1_0": pm1,
                 "pm2_5": pm25,
-                "AQ": clasificar_calidad_aire_pm25(pm25),
+                "AQ PM 2.5": clasificar_calidad_aire_pm25(pm25),
+                "AQ PM 1": clasificar_calidad_aire_pm10(pm1),
                 "timestamp": timestamp
             }
             coords = (fila['longitude'], fila['latitude'])
