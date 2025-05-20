@@ -10,10 +10,11 @@ from scipy.spatial import Delaunay
 from datetime import datetime
 
 # Parámetros
-API_KEY = os.getenv("API_KEY_PURPLEAIR")
+API_KEY = '4DAC6BF4-2B64-11F0-81BE-42010A80001F'  # os.getenv("API_KEY_PURPLEAIR")
 CSV_FILE = 'sensores_detectados.csv'
 SALIDA_GEOJSON_SENSORES = 'sensores.geojson'
-SALIDA_GEOJSON_COLONIAS = 'AQ_PM25.geojson'
+SALIDA_GEOJSON_COLONIAS_PM25 = 'AQ_PM25.geojson'
+SALIDA_GEOJSON_COLONIAS_PM10 = 'AQ_PM10.geojson'
 ARCHIVO_SHP_COLONIAS = 'shp/2023_1_19_A.shp'
 CAMPOS = 'pm1.0,pm2.5'
 
@@ -34,21 +35,33 @@ def consultar_sensor(sensor_index):
         return data.get("pm1.0"), data.get("pm2.5")
     return None, None
 
-def clasificar_calidad_aire(pm25):
+
+def clasificar_calidad_aire_pm25(pm25):
     if pm25 is None or np.isnan(pm25):
         return "Sin datos"
-    elif pm25 <= 12.0:
+    elif pm25 <= 15:
         return "Bueno"
-    elif pm25 <= 35.4:
-        return "Moderado"
-    elif pm25 <= 55.4:
-        return "No saludable para grupos sensibles"
-    elif pm25 <= 150.4:
-        return "No saludable"
-    elif pm25 <= 250.4:
-        return "Muy insalubre"
+    elif pm25 <= 33:
+        return "Aceptable"
+    elif pm25 <=79:
+        return "Mala"
+    elif pm25 <=130:
+        return "Muy alta"
     else:
-        return "Peligroso"
+        return "Extremadamente mala"
+def clasificar_calidad_aire_pm10(pm10):
+    if pm10 is None or np.isnan(pm10):
+        return "Sin datos"
+    elif pm10 <= 45:
+        return "Bueno"
+    elif pm10 <= 60:
+        return "Aceptable"
+    elif pm10 <=132:
+        return "Mala"
+    elif pm10 <=213:
+        return "Muy alta"
+    else:
+        return "Extremadamente mala"
 
 def crear_geojson(df):
     features = []
@@ -67,7 +80,7 @@ def crear_geojson(df):
                 "name": fila.get('name', ''),
                 "pm1_0": pm1,
                 "pm2_5": pm25,
-                "AQ": clasificar_calidad_aire(pm25),
+                "AQ": clasificar_calidad_aire_pm25(pm25),
                 "timestamp": timestamp
             }
             coords = (fila['longitude'], fila['latitude'])
@@ -82,8 +95,7 @@ def crear_geojson(df):
                 "name": fila.get('name', ''),
                 "timestamp": timestamp,
                 "pm1_0": pm1,
-                "pm2_5": pm25,
-                "AQ": clasificar_calidad_aire(pm25)
+                "pm2_5": pm25
             })
 
     # Guardar GeoJSON de sensores
@@ -105,6 +117,14 @@ def crear_geojson(df):
     df_total.to_csv(historico_path, index=False, encoding='utf-8')
     print(f"Histórico actualizado: {historico_path}")
 
+    return np.array(puntos), np.array(valores)
+
+
+    feature_collection = geojson.FeatureCollection(features)
+    with open(SALIDA_GEOJSON_SENSORES, 'w', encoding='utf-8') as f:
+        geojson.dump(feature_collection, f, indent=2)
+
+    print(f"GeoJSON de sensores generado: {SALIDA_GEOJSON_SENSORES}")
     return np.array(puntos), np.array(valores)
 
 def cargar_datos_colonias_shp(archivo_shp_colonias):
@@ -131,24 +151,12 @@ def interpolar_lineal(punto, triangulo_indices, puntos, valores):
     except np.linalg.LinAlgError:
         return None
 
-
-
-# ------------------ Ejecución Principal ------------------ #
-
-if __name__ == '__main__':
-    # Paso 1: Leer CSV y generar puntos
-    df_sensores = leer_csv(CSV_FILE)
-    puntos_data, valores_puntos = crear_geojson(df_sensores)
-
-    # Paso 2: Cargar colonias
-    colonias_data = cargar_datos_colonias_shp(ARCHIVO_SHP_COLONIAS)
-
-    # Paso 3: Triangulación e interpolación
+def generar_geojson_colonias(nombre_archivo, colonias_data, puntos_data, valores_puntos, contaminante):
     try:
         tri = Delaunay(puntos_data)
     except ValueError as e:
         print(f"Error en la triangulación de Delaunay: {e}")
-        exit()
+        return
 
     for colonia in colonias_data:
         geom = colonia['geometry']
@@ -162,10 +170,8 @@ if __name__ == '__main__':
                 valores_en_colonia.append(valores_puntos[i])
 
         if valores_en_colonia:
-            # Si hay puntos dentro de la colonia, usar el promedio de sus valores
             colonia['valor_interpolado'] = float(np.mean(valores_en_colonia))
         else:
-            # Si no hay puntos, usar la interpolación con Delaunay
             centroide = geom.centroid
             punto_centroide = np.array([centroide.x, centroide.y])
             simplex_index = tri.find_simplex(punto_centroide)
@@ -177,7 +183,7 @@ if __name__ == '__main__':
             else:
                 colonia['valor_interpolado'] = np.nan
 
-    # Paso 4: Crear GeoJSON de salida con validación robusta
+    # Crear GeoJSON
     geo_json_data = {
         "type": "FeatureCollection",
         "features": []
@@ -187,7 +193,6 @@ if __name__ == '__main__':
         geom = colonia['geometry']
 
         if not geom.is_valid or geom.is_empty:
-            print(f"Colonia omitida ({colonia['nombre']}) - geometría no válida o vacía")
             continue
 
         try:
@@ -206,10 +211,8 @@ if __name__ == '__main__':
                     "coordinates": coordinates
                 }
             else:
-                print(f"Colonia omitida ({colonia['nombre']}) - tipo de geometría no soportado: {geom.geom_type}")
                 continue
-        except Exception as e:
-            print(f"Error procesando geometría de {colonia['nombre']}: {e}")
+        except Exception:
             continue
 
         valor_interpolado = colonia.get('valor_interpolado')
@@ -224,13 +227,25 @@ if __name__ == '__main__':
             "properties": {
                 "nombre": colonia['nombre'],
                 "valor_interpolado": valor_export,
-                "AQ": clasificar_calidad_aire(valor_export)
+                "AQ": clasificar_calidad_aire_pm25(valor_export) if contaminante == 'pm2_5' else clasificar_calidad_aire_pm10(valor_export)
             }
         }
 
         geo_json_data["features"].append(feature)
 
-    with open(SALIDA_GEOJSON_COLONIAS, "w", encoding="utf-8") as f:
+    with open(nombre_archivo, "w", encoding="utf-8") as f:
         json.dump(geo_json_data, f, ensure_ascii=False, indent=2)
 
-    print(f"GeoJSON de colonias generado: {SALIDA_GEOJSON_COLONIAS}")
+    print(f"GeoJSON generado para {contaminante}: {nombre_archivo}")
+
+
+# ------------------ Ejecución Principal ------------------ #
+
+if __name__ == '__main__':
+    # Sensore
+    df_sensores = leer_csv(CSV_FILE)
+    puntos_data, valores_puntos = crear_geojson(df_sensores)
+    #Colonias
+    colonias_data = cargar_datos_colonias_shp(ARCHIVO_SHP_COLONIAS)
+    generar_geojson_colonias(SALIDA_GEOJSON_COLONIAS_PM25, colonias_data, puntos_data, valores_puntos, 'pm2_5')
+    generar_geojson_colonias(SALIDA_GEOJSON_COLONIAS_PM10, colonias_data, puntos_data, valores_puntos, 'pm1_0')
