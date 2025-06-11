@@ -13,11 +13,11 @@
       "properties": {
         "sensor_index": 33027,
         "name": "Lagos del Bosque",
-        "pm1_0": 2.5,
-        "pm2_5": 3.6,
+        "pm1_0": 2.4,
+        "pm2_5": 3.8,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -32,11 +32,11 @@
       "properties": {
         "sensor_index": 33117,
         "name": "Liceo de Monterrey",
-        "pm1_0": 5.4,
-        "pm2_5": 7.2,
+        "pm1_0": 5.2,
+        "pm2_5": 7.1,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -51,11 +51,11 @@
       "properties": {
         "sensor_index": 34441,
         "name": "Callejon de los Ayala",
-        "pm1_0": 3.1,
-        "pm2_5": 5.3,
+        "pm1_0": 3.5,
+        "pm2_5": 5.8,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -74,7 +74,7 @@
         "pm2_5": 0.0,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -89,11 +89,11 @@
       "properties": {
         "sensor_index": 34511,
         "name": "Rosario",
-        "pm1_0": 8.0,
-        "pm2_5": 14.2,
+        "pm1_0": 7.1,
+        "pm2_5": 11.8,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -112,7 +112,7 @@
         "pm2_5": 0.9,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -127,11 +127,11 @@
       "properties": {
         "sensor_index": 42211,
         "name": "RF",
-        "pm1_0": 2.0,
-        "pm2_5": 2.8,
+        "pm1_0": 2.4,
+        "pm2_5": 3.1,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -150,7 +150,7 @@
         "pm2_5": 19.5,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -165,11 +165,11 @@
       "properties": {
         "sensor_index": 45769,
         "name": "Huascaran",
-        "pm1_0": 9.2,
-        "pm2_5": 14.2,
-        "AQ PM 2.5": "Bueno",
+        "pm1_0": 10.6,
+        "pm2_5": 16.2,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -184,11 +184,11 @@
       "properties": {
         "sensor_index": 46599,
         "name": "Esponosa",
-        "pm1_0": 0.8,
-        "pm2_5": 1.0,
+        "pm1_0": 0.9,
+        "pm2_5": 1.4,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -207,7 +207,7 @@
         "pm2_5": 19.2,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -222,11 +222,11 @@
       "properties": {
         "sensor_index": 49949,
         "name": "El Horizonte",
-        "pm1_0": 4.3,
-        "pm2_5": 6.2,
+        "pm1_0": 6.0,
+        "pm2_5": 8.4,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -241,11 +241,11 @@
       "properties": {
         "sensor_index": 50555,
         "name": "Trevi\u00f1o",
-        "pm1_0": 9.7,
-        "pm2_5": 13.4,
+        "pm1_0": 7.2,
+        "pm2_5": 10.3,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -260,11 +260,11 @@
       "properties": {
         "sensor_index": 50871,
         "name": "TEC Garza Laguera",
-        "pm1_0": 30.8,
-        "pm2_5": 31.9,
+        "pm1_0": 27.7,
+        "pm2_5": 30.0,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -279,11 +279,11 @@
       "properties": {
         "sensor_index": 60027,
         "name": "Torre Koi",
-        "pm1_0": 1.8,
-        "pm2_5": 2.7,
+        "pm1_0": 2.6,
+        "pm2_5": 3.0,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -298,11 +298,11 @@
       "properties": {
         "sensor_index": 62831,
         "name": "Koi IdeI",
-        "pm1_0": 2.7,
-        "pm2_5": 3.4,
+        "pm1_0": 1.8,
+        "pm2_5": 3.1,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -317,11 +317,11 @@
       "properties": {
         "sensor_index": 71091,
         "name": "JNAirCare",
-        "pm1_0": 2.8,
-        "pm2_5": 4.6,
+        "pm1_0": 3.6,
+        "pm2_5": 6.0,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -336,11 +336,11 @@
       "properties": {
         "sensor_index": 84411,
         "name": "Sima UANL",
-        "pm1_0": 3.6,
-        "pm2_5": 5.3,
+        "pm1_0": 5.2,
+        "pm2_5": 7.7,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -359,7 +359,7 @@
         "pm2_5": 28.5,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -374,11 +374,11 @@
       "properties": {
         "sensor_index": 119965,
         "name": "Grupo Reforma El Norte",
-        "pm1_0": 0.6,
-        "pm2_5": 1.8,
+        "pm1_0": 0.0,
+        "pm2_5": 1.0,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -397,7 +397,7 @@
         "pm2_5": 7.2,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -416,7 +416,7 @@
         "pm2_5": 8.2,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -431,11 +431,11 @@
       "properties": {
         "sensor_index": 147010,
         "name": "Santa Barbara",
-        "pm1_0": 9.9,
-        "pm2_5": 13.7,
+        "pm1_0": 9.2,
+        "pm2_5": 12.6,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -450,11 +450,11 @@
       "properties": {
         "sensor_index": 169221,
         "name": "Imobilem Piso 5",
-        "pm1_0": 2.7,
-        "pm2_5": 4.3,
+        "pm1_0": 2.8,
+        "pm2_5": 5.6,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -473,7 +473,7 @@
         "pm2_5": 0.0,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -488,11 +488,11 @@
       "properties": {
         "sensor_index": 174781,
         "name": "Colegio Cambridge de Monterrey Campus Mitras",
-        "pm1_0": 9.5,
-        "pm2_5": 11.0,
+        "pm1_0": 7.4,
+        "pm2_5": 8.8,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -507,11 +507,11 @@
       "properties": {
         "sensor_index": 174787,
         "name": "Colegio Cambridge de Monterrey Campus Norte",
-        "pm1_0": 3.0,
-        "pm2_5": 3.5,
+        "pm1_0": 4.0,
+        "pm2_5": 5.0,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -530,7 +530,7 @@
         "pm2_5": 5.4,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -545,11 +545,11 @@
       "properties": {
         "sensor_index": 189431,
         "name": "BEA",
-        "pm1_0": 3.5,
-        "pm2_5": 6.0,
+        "pm1_0": 7.1,
+        "pm2_5": 11.2,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -564,11 +564,11 @@
       "properties": {
         "sensor_index": 189435,
         "name": "Olinal\u00e1",
-        "pm1_0": 7.0,
-        "pm2_5": 10.8,
+        "pm1_0": 7.2,
+        "pm2_5": 11.4,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -583,11 +583,11 @@
       "properties": {
         "sensor_index": 189447,
         "name": "R\u00cdO AMAZONAS - CALZADA NORTE",
-        "pm1_0": 13.4,
-        "pm2_5": 20.7,
+        "pm1_0": 13.9,
+        "pm2_5": 22.1,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -602,11 +602,11 @@
       "properties": {
         "sensor_index": 189455,
         "name": "CHIPINQUE CAV",
-        "pm1_0": 5.5,
-        "pm2_5": 9.5,
+        "pm1_0": 6.1,
+        "pm2_5": 9.8,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -621,11 +621,11 @@
       "properties": {
         "sensor_index": 189469,
         "name": "Hospital Zambran Hellion TecSalud",
-        "pm1_0": 2.8,
-        "pm2_5": 4.0,
+        "pm1_0": 2.5,
+        "pm2_5": 3.5,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -644,7 +644,7 @@
         "pm2_5": 31.5,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -659,11 +659,11 @@
       "properties": {
         "sensor_index": 208785,
         "name": "Colegio Cambridge de Monterrey Campus An\u00e1huac",
-        "pm1_0": 4.2,
-        "pm2_5": 5.4,
+        "pm1_0": 8.2,
+        "pm2_5": 10.0,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -678,11 +678,11 @@
       "properties": {
         "sensor_index": 209147,
         "name": "Rincon de San Jeronimo",
-        "pm1_0": 13.9,
-        "pm2_5": 20.7,
+        "pm1_0": 13.2,
+        "pm2_5": 21.0,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -701,7 +701,7 @@
         "pm2_5": 78.5,
         "AQ PM 2.5": "Mala",
         "AQ PM 1": "Mala",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -716,11 +716,11 @@
       "properties": {
         "sensor_index": 226615,
         "name": "Andalucia",
-        "pm1_0": 2.8,
-        "pm2_5": 3.7,
+        "pm1_0": 3.0,
+        "pm2_5": 4.2,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -739,7 +739,7 @@
         "pm2_5": 39.6,
         "AQ PM 2.5": "Mala",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -754,11 +754,11 @@
       "properties": {
         "sensor_index": 227879,
         "name": "Rectoria",
-        "pm1_0": 3.6,
+        "pm1_0": 3.4,
         "pm2_5": 4.2,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -777,7 +777,7 @@
         "pm2_5": 16.0,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -796,7 +796,7 @@
         "pm2_5": 21.0,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -811,11 +811,11 @@
       "properties": {
         "sensor_index": 227925,
         "name": "Jard\u00edn de las carreras",
-        "pm1_0": 3.6,
-        "pm2_5": 4.4,
+        "pm1_0": 3.4,
+        "pm2_5": 3.8,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -830,11 +830,11 @@
       "properties": {
         "sensor_index": 227965,
         "name": "PrepaTec EGS Aulas 2",
-        "pm1_0": 7.6,
-        "pm2_5": 10.3,
+        "pm1_0": 11.0,
+        "pm2_5": 15.0,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -849,11 +849,11 @@
       "properties": {
         "sensor_index": 228003,
         "name": "EGL-Jard\u00edn Rob\u00f3tica",
-        "pm1_0": 3.7,
-        "pm2_5": 4.5,
+        "pm1_0": 3.2,
+        "pm2_5": 3.9,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -872,7 +872,7 @@
         "pm2_5": 21.0,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -887,11 +887,11 @@
       "properties": {
         "sensor_index": 228389,
         "name": "PEGS-Sensor-Canchas",
-        "pm1_0": 10.1,
-        "pm2_5": 12.3,
-        "AQ PM 2.5": "Bueno",
+        "pm1_0": 12.8,
+        "pm2_5": 16.8,
+        "AQ PM 2.5": "Aceptable",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -906,11 +906,11 @@
       "properties": {
         "sensor_index": 228407,
         "name": "CEDES",
-        "pm1_0": 3.0,
-        "pm2_5": 3.8,
+        "pm1_0": 3.1,
+        "pm2_5": 4.0,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -929,7 +929,7 @@
         "pm2_5": 0.0,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     },
     {
@@ -948,7 +948,7 @@
         "pm2_5": 11.2,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-06-11T16:56:31.706030Z"
+        "timestamp": "2025-06-11T17:10:36.496110Z"
       }
     }
   ]
