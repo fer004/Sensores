@@ -10,7 +10,7 @@ from scipy.spatial import Delaunay
 from datetime import datetime
 
 # Parámetros
-API_KEY = '4DAC6BF4-2B64-11F0-81BE-42010A80001F'  # os.getenv("API_KEY_PURPLEAIR")
+API_KEY = os.getenv("API_KEY_PURPLEAIR")
 CSV_FILE = 'sensores_detectados.csv'
 SALIDA_GEOJSON_SENSORES = 'sensores.geojson'
 SALIDA_GEOJSON_COLONIAS_PM25 = 'AQ_PM25.geojson'
