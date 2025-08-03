@@ -1,4 +1,62 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.28022,
+          25.779613
+        ]
+      },
+      "properties": {
+        "sensor_index": 174787,
+        "name": "Colegio Cambridge de Monterrey Campus Norte",
+        "pm1_0": 7.1,
+        "pm2_5": 7.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T13:58:24.320533Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.18215,
+          25.77774
+        ]
+      },
+      "properties": {
+        "sensor_index": 203705,
+        "name": "Miguel Alem\u00e1n",
+        "pm1_0": 4.5,
+        "pm2_5": 4.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T13:58:24.320533Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.357025,
+          25.669565
+        ]
+      },
+      "properties": {
+        "sensor_index": 227965,
+        "name": "PrepaTec EGS Aulas 2",
+        "pm1_0": 18.8,
+        "pm2_5": 27.0,
+        "AQ PM 2.5": "Aceptable",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T13:58:24.320533Z"
+      }
+    }
+  ]
 }
