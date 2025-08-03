@@ -6,18 +6,56 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.26256,
-          25.600061
+          -100.32849,
+          25.650322
         ]
       },
       "properties": {
-        "sensor_index": 33027,
-        "name": "Lagos del Bosque",
-        "pm1_0": 7.1,
-        "pm2_5": 10.6,
+        "sensor_index": 33117,
+        "name": "Liceo de Monterrey",
+        "pm1_0": 14.9,
+        "pm2_5": 21.0,
+        "AQ PM 2.5": "Aceptable",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T15:34:06.713609Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3976,
+          25.6665
+        ]
+      },
+      "properties": {
+        "sensor_index": 34441,
+        "name": "Callejon de los Ayala",
+        "pm1_0": 2.7,
+        "pm2_5": 5.0,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T15:15:08.930511Z"
+        "timestamp": "2025-08-03T15:34:06.713609Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3372,
+          25.645615
+        ]
+      },
+      "properties": {
+        "sensor_index": 36709,
+        "name": "San Roberto International School Campus San Agustin",
+        "pm1_0": 1.7,
+        "pm2_5": 2.1,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T15:34:06.713609Z"
       }
     },
     {
@@ -32,49 +70,49 @@
       "properties": {
         "sensor_index": 45769,
         "name": "Huascaran",
-        "pm1_0": 15.7,
-        "pm2_5": 24.8,
+        "pm1_0": 3.7,
+        "pm2_5": 5.5,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T15:34:06.713609Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.32199,
+          25.641954
+        ]
+      },
+      "properties": {
+        "sensor_index": 60027,
+        "name": "Torre Koi",
+        "pm1_0": 8.3,
+        "pm2_5": 11.6,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T15:34:06.713609Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.310295,
+          25.680895
+        ]
+      },
+      "properties": {
+        "sensor_index": 142670,
+        "name": "Estaci\u00f3n de Monitoreo de Calidad del Aire Comit\u00e9 Estatal PAN",
+        "pm1_0": 12.1,
+        "pm2_5": 16.5,
         "AQ PM 2.5": "Aceptable",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T15:15:08.930511Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.31967,
-          25.678625
-        ]
-      },
-      "properties": {
-        "sensor_index": 46599,
-        "name": "Esponosa",
-        "pm1_0": 3.4,
-        "pm2_5": 4.5,
-        "AQ PM 2.5": "Bueno",
-        "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T15:15:08.930511Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.30816,
-          25.674164
-        ]
-      },
-      "properties": {
-        "sensor_index": 119965,
-        "name": "Grupo Reforma El Norte",
-        "pm1_0": 4.2,
-        "pm2_5": 7.9,
-        "AQ PM 2.5": "Bueno",
-        "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T15:15:08.930511Z"
+        "timestamp": "2025-08-03T15:34:06.713609Z"
       }
     },
     {
@@ -89,11 +127,11 @@
       "properties": {
         "sensor_index": 169221,
         "name": "Imobilem Piso 5",
-        "pm1_0": 3.8,
-        "pm2_5": 6.9,
+        "pm1_0": 4.3,
+        "pm2_5": 6.3,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T15:15:08.930511Z"
+        "timestamp": "2025-08-03T15:34:06.713609Z"
       }
     },
     {
@@ -101,18 +139,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.359955,
-          25.618307
+          -100.37645,
+          25.618986
         ]
       },
       "properties": {
-        "sensor_index": 189455,
-        "name": "CHIPINQUE CAV",
-        "pm1_0": 5.6,
-        "pm2_5": 8.6,
+        "sensor_index": 189435,
+        "name": "Olinal\u00e1",
+        "pm1_0": 6.2,
+        "pm2_5": 9.2,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T15:15:08.930511Z"
+        "timestamp": "2025-08-03T15:34:06.713609Z"
       }
     },
     {
@@ -120,56 +158,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.31988,
-          25.763647
+          -100.18215,
+          25.77774
         ]
       },
       "properties": {
-        "sensor_index": 227585,
-        "name": "Impladem",
-        "pm1_0": 28.6,
-        "pm2_5": 39.6,
+        "sensor_index": 203705,
+        "name": "Miguel Alem\u00e1n",
+        "pm1_0": 4.5,
+        "pm2_5": 4.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T15:34:06.713609Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.30299,
+          25.738346
+        ]
+      },
+      "properties": {
+        "sensor_index": 226601,
+        "name": "Universidad y Sor Juana Ines de la Cruz",
+        "pm1_0": 73.4,
+        "pm2_5": 78.5,
         "AQ PM 2.5": "Mala",
-        "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T15:15:08.930511Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.28734,
-          25.65214
-        ]
-      },
-      "properties": {
-        "sensor_index": 227889,
-        "name": "Parque Central",
-        "pm1_0": 8.4,
-        "pm2_5": 11.4,
-        "AQ PM 2.5": "Bueno",
-        "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T15:15:08.930511Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -100.29026,
-          25.648985
-        ]
-      },
-      "properties": {
-        "sensor_index": 227913,
-        "name": "Centro de Congresos",
-        "pm1_0": 9.6,
-        "pm2_5": 13.2,
-        "AQ PM 2.5": "Bueno",
-        "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T15:15:08.930511Z"
+        "AQ PM 1": "Mala",
+        "timestamp": "2025-08-03T15:34:06.713609Z"
       }
     }
   ]
