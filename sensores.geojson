@@ -6,18 +6,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.26256,
-          25.600061
+          -100.392265,
+          25.640432
         ]
       },
       "properties": {
-        "sensor_index": 33027,
-        "name": "Lagos del Bosque",
-        "pm1_0": 8.8,
-        "pm2_5": 12.4,
+        "sensor_index": 34511,
+        "name": "Rosario",
+        "pm1_0": 5.7,
+        "pm2_5": 9.2,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T14:33:22.918803Z"
+        "timestamp": "2025-08-03T14:58:09.811199Z"
       }
     },
     {
@@ -25,18 +25,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.35304,
-          25.693445
+          -100.36743,
+          25.638243
         ]
       },
       "properties": {
-        "sensor_index": 47233,
-        "name": "Colegio Israelita de Mty",
-        "pm1_0": 15.3,
-        "pm2_5": 19.2,
-        "AQ PM 2.5": "Aceptable",
+        "sensor_index": 50555,
+        "name": "Trevi\u00f1o",
+        "pm1_0": 11.3,
+        "pm2_5": 14.0,
+        "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T14:33:22.918803Z"
+        "timestamp": "2025-08-03T14:58:09.811199Z"
       }
     },
     {
@@ -44,18 +44,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.29761,
-          25.677492
+          -100.32199,
+          25.641954
         ]
       },
       "properties": {
-        "sensor_index": 49949,
-        "name": "El Horizonte",
-        "pm1_0": 10.2,
-        "pm2_5": 14.2,
+        "sensor_index": 60027,
+        "name": "Torre Koi",
+        "pm1_0": 4.1,
+        "pm2_5": 6.0,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T14:33:22.918803Z"
+        "timestamp": "2025-08-03T14:58:09.811199Z"
       }
     },
     {
@@ -74,7 +74,7 @@
         "pm2_5": 7.5,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T14:33:22.918803Z"
+        "timestamp": "2025-08-03T14:58:09.811199Z"
       }
     },
     {
@@ -82,18 +82,56 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.30816,
-          25.674164
+          -100.36954,
+          25.762922
         ]
       },
       "properties": {
-        "sensor_index": 119965,
-        "name": "Grupo Reforma El Norte",
+        "sensor_index": 93711,
+        "name": "Sima Prepa Militarizada",
+        "pm1_0": 21.6,
+        "pm2_5": 28.5,
+        "AQ PM 2.5": "Aceptable",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T14:58:09.811199Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.310295,
+          25.680895
+        ]
+      },
+      "properties": {
+        "sensor_index": 142670,
+        "name": "Estaci\u00f3n de Monitoreo de Calidad del Aire Comit\u00e9 Estatal PAN",
+        "pm1_0": 12.1,
+        "pm2_5": 16.5,
+        "AQ PM 2.5": "Aceptable",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T14:58:09.811199Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.35827,
+          25.60932
+        ]
+      },
+      "properties": {
+        "sensor_index": 175081,
+        "name": "Caba\u00f1a Chipinque",
         "pm1_0": 4.4,
-        "pm2_5": 8.0,
+        "pm2_5": 5.4,
         "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T14:33:22.918803Z"
+        "timestamp": "2025-08-03T14:58:09.811199Z"
       }
     },
     {
@@ -101,18 +139,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.37162,
-          25.662413
+          -100.35996,
+          25.65725
         ]
       },
       "properties": {
-        "sensor_index": 189447,
-        "name": "R\u00cdO AMAZONAS - CALZADA NORTE",
-        "pm1_0": 13.5,
-        "pm2_5": 19.9,
-        "AQ PM 2.5": "Aceptable",
+        "sensor_index": 189431,
+        "name": "BEA",
+        "pm1_0": 6.0,
+        "pm2_5": 9.3,
+        "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T14:33:22.918803Z"
+        "timestamp": "2025-08-03T14:58:09.811199Z"
       }
     },
     {
@@ -120,18 +158,132 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -100.35683,
-          25.670425
+          -100.37645,
+          25.618986
         ]
       },
       "properties": {
-        "sensor_index": 228389,
-        "name": "PEGS-Sensor-Canchas",
-        "pm1_0": 13.0,
-        "pm2_5": 17.6,
-        "AQ PM 2.5": "Aceptable",
+        "sensor_index": 189435,
+        "name": "Olinal\u00e1",
+        "pm1_0": 6.9,
+        "pm2_5": 9.7,
+        "AQ PM 2.5": "Bueno",
         "AQ PM 1": "Bueno",
-        "timestamp": "2025-08-03T14:33:22.918803Z"
+        "timestamp": "2025-08-03T14:58:09.811199Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.359955,
+          25.618307
+        ]
+      },
+      "properties": {
+        "sensor_index": 189455,
+        "name": "CHIPINQUE CAV",
+        "pm1_0": 6.6,
+        "pm2_5": 11.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T14:58:09.811199Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.30299,
+          25.738346
+        ]
+      },
+      "properties": {
+        "sensor_index": 226601,
+        "name": "Universidad y Sor Juana Ines de la Cruz",
+        "pm1_0": 73.4,
+        "pm2_5": 78.5,
+        "AQ PM 2.5": "Mala",
+        "AQ PM 1": "Mala",
+        "timestamp": "2025-08-03T14:58:09.811199Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.2422,
+          25.720942
+        ]
+      },
+      "properties": {
+        "sensor_index": 226615,
+        "name": "Andalucia",
+        "pm1_0": 4.7,
+        "pm2_5": 6.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T14:58:09.811199Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.31988,
+          25.763647
+        ]
+      },
+      "properties": {
+        "sensor_index": 227585,
+        "name": "Impladem",
+        "pm1_0": 28.6,
+        "pm2_5": 39.6,
+        "AQ PM 2.5": "Mala",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T14:58:09.811199Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.29026,
+          25.648985
+        ]
+      },
+      "properties": {
+        "sensor_index": 227913,
+        "name": "Centro de Congresos",
+        "pm1_0": 10.3,
+        "pm2_5": 14.6,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T14:58:09.811199Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.28651,
+          25.654228
+        ]
+      },
+      "properties": {
+        "sensor_index": 228383,
+        "name": "Estadio Banorte",
+        "pm1_0": 10.7,
+        "pm2_5": 14.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T14:58:09.811199Z"
       }
     }
   ]
